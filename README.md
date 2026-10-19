@@ -119,7 +119,7 @@
 | **Languages** | ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) |
 | **Robotics & Aerospace** | ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white) ![Isaac Sim](https://img.shields.io/badge/NVIDIA_Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![Foxglove](https://img.shields.io/badge/Foxglove-4B32C3?style=for-the-badge) ![GNC / EKF](https://img.shields.io/badge/GNC_%2F_EKF-56C5C5?style=for-the-badge) |
 | **AI/ML & Perception** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white) ![VLA / LLMs](https://img.shields.io/badge/VLAs_%2F_LLMs-FF8A46?style=for-the-badge) |
-| **Networking & Infra** | ![FastDDS](https://img.shields.io/badge/FastDDS-008080?style=for-the-badge) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) |
+| **Networking & Infra** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![FastDDS](https://img.shields.io/badge/FastDDS-008080?style=for-the-badge) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) |
 
 </div>
 
@@ -129,7 +129,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=RileyMarek&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=56C5C5&icon_color=FF8A46&text_color=C9D1D9" height="165" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=RileyMarek&show_icons=true&hide_rank=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=56C5C5&icon_color=FF8A46&text_color=C9D1D9" height="165" alt="GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RileyMarek&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=56C5C5&text_color=C9D1D9" height="165" alt="Top Languages" />
 
 <br/>
