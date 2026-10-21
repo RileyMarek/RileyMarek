@@ -2,16 +2,16 @@
 
 # Hi, I'm Riley Marek 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=56C5C5&center=true&vCenter=true&width=700&lines=Spacecraft+GNC+%26+Autonomous+Orbital+Vision;Embodied+Robotics+(Isaac+Sim+%2B+ROS+2);AI%2FML+Research+%26+Computer+Vision+Algorithms;Distributed+Systems+%26+Low-Latency+Networking;Deterministic%2C+Allocation-Free+Rust+(no_std))](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=1100&color=56C5C5&center=true&vCenter=true&width=720&lines=Spacecraft+GNC+%26+Autonomous+Orbital+Vision;High-Performance+%26+Low-Latency+Networking;AI%2FML+Infrastructure+%26+Enterprise+GPU+Clusters;Embodied+Robotics+(Isaac+Sim+%2B+ROS+2);Deterministic%2C+Allocation-Free+Rust+(no_std))](https://git.io/typing-svg)
 
 <p align="center">
-  <b>Building high-assurance autonomous systems at the intersection of AI/ML research, distributed networking, and physical robotics.</b>
+  <b>Building high-assurance autonomous systems at the intersection of AI/ML infrastructure, low-latency distributed networking, and physical robotics.</b>
 </p>
 
 <p align="center">
   <a href="https://github.com/RileyMarek"><img src="https://img.shields.io/badge/GitHub-RileyMarek-181717?style=flat-square&logo=github" alt="GitHub" /></a>
   <a href="mailto:riley.marek@wsu.edu"><img src="https://img.shields.io/badge/Email-riley.marek%40wsu.edu-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Focus-Aerospace%2C%20Robotics%20%26%20AI-FF8A46?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Focus-AI%2FML%20Infra%2C%20Networking%20%26%20Aerospace-FF8A46?style=flat-square" alt="Focus" />
   <img src="https://img.shields.io/badge/Location-Washington%2C%20USA-2ea44f?style=flat-square" alt="Location" />
 </p>
 
@@ -37,6 +37,21 @@
       </p>
     </td>
     <td width="50%" valign="top">
+      <h3 align="center">⚡ AI/ML Infrastructure & Low-Latency Networking</h3>
+      <p align="center"><b>High-Throughput Distributed Compute & Telemetry</b></p>
+      <p>High-reliability infrastructure for enterprise GPU clusters and real-time distributed robotics:</p>
+      <ul>
+        <li><b>GPU Cluster Orchestration:</b> Multi-node distributed compute pipelines, remote GPU offloading (FastAPI/tunnel bridging to remote VLA models), and CUDA profiling.</li>
+        <li><b>Low-Latency IPC:</b> Zero-copy message passing with FastDDS, eRPC, and WebSocket streaming bridges optimized for sub-millisecond control loops.</li>
+        <li><b>Resilient Cloud Middleware:</b> Bounded-queue replay buffers, automated QoS throttling, network fault injection, and containerized microservices.</li>
+      </ul>
+      <p align="center">
+        <code>GPU Clusters</code> · <code>FastDDS</code> · <code>WebSockets</code> · <code>gRPC</code> · <code>FastAPI</code> · <code>CUDA</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3 align="center">🤖 Moonbase</h3>
       <p align="center"><b>Embodied Robotics Command Center</b></p>
       <p>Robotic autonomy stack bridging high-level Vision-Language-Action (VLA) models with low-level execution:</p>
@@ -49,8 +64,6 @@
         <code>Python</code> · <code>ROS 2</code> · <code>Isaac Sim</code> · <code>FastDDS</code> · <code>WebSockets</code> · <code>VLAs</code>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3 align="center">🪐 NASA Rover Autonomy</h3>
       <p align="center"><b>Planetary Surface Robotics & Navigation</b></p>
@@ -64,6 +77,8 @@
         <code>C++</code> · <code>ROS 2</code> · <code>Sensor Fusion</code> · <code>Path Planning</code> · <code>CAN Bus</code> · <code>Embedded</code>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3 align="center">🧠 ADAPT-AI <small><i>(Proprietary)</i></small></h3>
       <p align="center"><b>Multi-Agent LLM Orchestration Platform</b></p>
@@ -75,21 +90,6 @@
       </ul>
       <p align="center">
         <code>FastAPI</code> · <code>LLM Pipelines</code> · <code>PostgreSQL</code> · <code>Next.js</code> · <code>Docker</code> · <code>Telemetry</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">⚡ Distributed Systems & Networking</h3>
-      <p align="center"><b>Low-Latency IPC & Real-Time Telemetry</b></p>
-      <p>High-reliability infrastructure for distributed robotics and autonomous systems:</p>
-      <ul>
-        <li><b>High-Throughput Middleware:</b> Zero-copy message passing with FastDDS, eRPC, and custom serialization protocols.</li>
-        <li><b>Streaming Bridges:</b> Asynchronous WebSockets, gRPC, and reverse-proxy tunnels for real-time telemetry streaming.</li>
-        <li><b>Fault Tolerance:</b> Health monitors, bounded-queue replay buffers, and paced network fault injection.</li>
-      </ul>
-      <p align="center">
-        <code>FastDDS</code> · <code>WebSockets</code> · <code>gRPC</code> · <code>AsyncIO</code> · <code>Distributed Systems</code>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -117,9 +117,9 @@
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
 | **Languages** | ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) |
+| **Networking & Infra** | ![FastDDS](https://img.shields.io/badge/FastDDS-008080?style=for-the-badge) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) |
+| **AI/ML & Compute** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![VLA / LLMs](https://img.shields.io/badge/VLAs_%2F_LLMs-FF8A46?style=for-the-badge) |
 | **Robotics & Aerospace** | ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white) ![Isaac Sim](https://img.shields.io/badge/NVIDIA_Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![Foxglove](https://img.shields.io/badge/Foxglove-4B32C3?style=for-the-badge) ![GNC / EKF](https://img.shields.io/badge/GNC_%2F_EKF-56C5C5?style=for-the-badge) |
-| **AI/ML & Perception** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white) ![VLA / LLMs](https://img.shields.io/badge/VLAs_%2F_LLMs-FF8A46?style=for-the-badge) |
-| **Networking & Infra** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![FastDDS](https://img.shields.io/badge/FastDDS-008080?style=for-the-badge) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) |
 
 </div>
 
