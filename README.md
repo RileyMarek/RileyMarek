@@ -2,107 +2,128 @@
 
 # Hi, I'm Riley Marek 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=1100&color=56C5C5&center=true&vCenter=true&width=720&lines=Spacecraft+GNC+%26+Autonomous+Orbital+Vision;High-Performance+%26+Low-Latency+Networking;AI%2FML+Infrastructure+%26+Enterprise+GPU+Clusters;Embodied+Robotics+(Isaac+Sim+%2B+ROS+2);Deterministic%2C+Allocation-Free+Rust+(no_std))](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=1100&color=56C5C5&center=true&vCenter=true&width=740&lines=Building+technology+for+the+future+of+humanity;Autonomous+Spacecraft+GNC+%26+Orbital+Perception;Embodied+Robotics+%26+Foundation+Models;AI+Products+Designed+to+Elevate+Human+Capability;Deterministic+Systems+Engineering+in+Rust+%26+C%2B%2B)](https://git.io/typing-svg)
 
 <p align="center">
-  <b>Building high-assurance autonomous systems at the intersection of AI/ML infrastructure, low-latency distributed networking, and physical robotics.</b>
+  <b>Product Engineer & Founder building the physical and digital frontiers of human progress — from autonomous space navigation and intelligent embodied robotics to human-centered AI products that improve real lives.</b>
 </p>
 
 <p align="center">
   <a href="https://github.com/RileyMarek"><img src="https://img.shields.io/badge/GitHub-RileyMarek-181717?style=flat-square&logo=github" alt="GitHub" /></a>
   <a href="mailto:riley.marek@wsu.edu"><img src="https://img.shields.io/badge/Email-riley.marek%40wsu.edu-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Focus-AI%2FML%20Infra%2C%20Networking%20%26%20Aerospace-FF8A46?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Focus-Product%20Engineering%20%7C%20Robotics%20%7C%20AI%20%7C%20Space-FF8A46?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Philosophy-Optimism%20through%20Action-56C5C5?style=flat-square" alt="Philosophy" />
   <img src="https://img.shields.io/badge/Location-Washington%2C%20USA-2ea44f?style=flat-square" alt="Location" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=120&section=header&text=Engineering%20the%20Next%20Frontier&fontSize=24&fontColor=ffffff&fontAlignY=40&animation=twinkling" width="100%" alt="Header Banner" />
 </p>
 
 ---
 
 </div>
 
-### 🛰️ Featured Systems & Research
+### 🚀 What I Build & Why
+
+> *"The best way to predict the future is to build it with conviction."*
+
+I believe technology reaches its highest purpose when it expands human potential, opens new frontiers, and solves real, grounded problems:
+* **The High Frontier:** Autonomous optical navigation and GNC engines that make sustainable orbital logistics, space exploration, and planetary missions viable.
+* **Embodied Physical AI:** Grounding foundation models in physical reality through physics-first robotics, real-time digital twins, and assistive physical autonomy.
+* **Intelligent Human Products:** Transforming complex multi-agent intelligence into accessible, reliable tools that empower researchers, clinicians, and learners.
+
+---
+
+### 🛰️ Featured Ventures & Flagship Systems
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/RileyMarek/ApsisVision">🛰️ Apsis Vision</a></h3>
-      <p align="center"><b>Relative Spacecraft Navigation in Rust</b></p>
-      <p>Autonomous relative optical navigation core for spacecraft rendezvous and proximity operations:</p>
+      <p align="center"><b>Autonomous Relative Spacecraft Navigation in Rust</b></p>
+      <div align="center">
+        <a href="https://github.com/RileyMarek/ApsisVision">
+          <img src="assets/apsis-console.png" width="94%" alt="Apsis Vision Console Preview" style="border-radius: 6px; border: 1px solid #30363d;" />
+        </a>
+      </div>
+      <p>An allocation-free, deterministic optical navigation core enabling spacecraft to safely rendezvous, inspect, and dock in orbit without human intervention:</p>
       <ul>
-        <li><b>Zero-Allocation Core:</b> Strict <code>no_std</code>, allocation-free EKF cross-compiled for ARM Cortex-M and Linux.</li>
-        <li><b>High-Integrity Perception:</b> Geometry-dependent 6x6 pose covariance, dual-stage visual admission, and latched ambiguity holds.</li>
-        <li><b>Orbital Dynamics:</b> Hill-Clohessy-Wiltshire (HCW) relative dynamics with approach corridors, virtual capture, and automated aborts.</li>
+        <li><b>Flight-Ready Core:</b> Strict <code>no_std</code>, zero-allocation 12-state EKF cross-compiled for ARM Cortex-M/R and embedded Linux.</li>
+        <li><b>Robust Perception:</b> Dual-stage visual admission, geometric 6x6 covariance estimation, and latched ambiguity holds under harsh solar glare.</li>
+        <li><b>Orbital Dynamics:</b> Closed-loop Hill-Clohessy-Wiltshire (HCW) relative dynamics with approach corridors, virtual capture, and automated aborts.</li>
       </ul>
       <p align="center">
-        <code>Rust</code> · <code>no_std</code> · <code>EKF</code> · <code>GNC</code> · <code>Computer Vision</code> · <code>ARM</code>
+        <code>Rust</code> · <code>no_std</code> · <code>Orbital GNC</code> · <code>Computer Vision</code> · <code>EKF</code> · <code>Space Autonomy</code>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center">⚡ AI/ML Infrastructure & Low-Latency Networking</h3>
-      <p align="center"><b>High-Throughput Distributed Compute & Telemetry</b></p>
-      <p>High-reliability infrastructure for enterprise GPU clusters and real-time distributed robotics:</p>
-      <ul>
-        <li><b>GPU Cluster Orchestration:</b> Multi-node distributed compute pipelines, remote GPU offloading (FastAPI/tunnel bridging to remote VLA models), and CUDA profiling.</li>
-        <li><b>Low-Latency IPC:</b> Zero-copy message passing with FastDDS, eRPC, and WebSocket streaming bridges optimized for sub-millisecond control loops.</li>
-        <li><b>Resilient Cloud Middleware:</b> Bounded-queue replay buffers, automated QoS throttling, network fault injection, and containerized microservices.</li>
-      </ul>
-      <p align="center">
-        <code>GPU Clusters</code> · <code>FastDDS</code> · <code>WebSockets</code> · <code>gRPC</code> · <code>FastAPI</code> · <code>CUDA</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3 align="center">🤖 Moonbase</h3>
-      <p align="center"><b>Embodied Robotics Command Center</b></p>
-      <p>Robotic autonomy stack bridging high-level Vision-Language-Action (VLA) models with low-level execution:</p>
+      <p align="center"><b>Embodied Robotics Command Center & VLA Execution</b></p>
+      <p>A unified robotics operations and physical-intelligence platform connecting high-level foundation models with low-level deterministic control:</p>
       <ul>
-        <li><b>Physics & Simulation:</b> High-fidelity Isaac Sim (NVIDIA Omniverse) with native RTX physics.</li>
-        <li><b>Distributed Middleware:</b> ROS 2, FastDDS, and Foxglove WebSocket bridging across distributed edge compute.</li>
-        <li><b>VLA Foundation Models:</b> Remote VLA (Molmo-7B) integration with a real-time Three.js / React digital twin.</li>
+        <li><b>Physics & Simulation:</b> High-fidelity Isaac Sim (NVIDIA Omniverse) with native RTX physics for rapid sim-to-real transfer.</li>
+        <li><b>Real-Time Telemetry:</b> Low-latency ROS 2, FastDDS, and Foxglove WebSocket streaming bridging distributed edge compute.</li>
+        <li><b>Foundation Robotics:</b> Remote Vision-Language-Action (Molmo-7B) integration with a live Three.js / React 3D digital twin.</li>
       </ul>
       <p align="center">
-        <code>Python</code> · <code>ROS 2</code> · <code>Isaac Sim</code> · <code>FastDDS</code> · <code>WebSockets</code> · <code>VLAs</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🪐 NASA Rover Autonomy</h3>
-      <p align="center"><b>Planetary Surface Robotics & Navigation</b></p>
-      <p>Autonomous navigation, localization, and control infrastructure for planetary exploration rovers:</p>
-      <ul>
-        <li><b>Sensor Fusion:</b> Multi-sensor state estimation fusing IMU, GNSS, wheel odometry, and stereo vision.</li>
-        <li><b>Perception & Planning:</b> Real-time terrain traversability hazard mapping and dynamic local path planning.</li>
-        <li><b>Telemetry Networking:</b> Robust, low-latency CAN bus and UDP/Ethernet communication architecture for harsh telemetry links.</li>
-      </ul>
-      <p align="center">
-        <code>C++</code> · <code>ROS 2</code> · <code>Sensor Fusion</code> · <code>Path Planning</code> · <code>CAN Bus</code> · <code>Embedded</code>
+        <code>Python</code> · <code>ROS 2</code> · <code>Isaac Sim</code> · <code>FastDDS</code> · <code>Three.js</code> · <code>VLAs</code> · <code>Physical AI</code>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🧠 ADAPT-AI <small><i>(Proprietary)</i></small></h3>
-      <p align="center"><b>Multi-Agent LLM Orchestration Platform</b></p>
-      <p>Assessment-design application developed for the CAIRE Research Lab at Washington State University <i>(Proprietary)</i>:</p>
+      <h3 align="center">🪐 NASA Rover Autonomy</h3>
+      <p align="center"><b>Planetary Surface Robotics & Exploration Navigation</b></p>
+      <p>Autonomous navigation, hazard avoidance, and state estimation architecture built for planetary surface exploration:</p>
       <ul>
-        <li><b>Multi-Stage LLM Pipelines:</b> Deterministic P1–P6 sequential and conditional prompt orchestration pipelines.</li>
-        <li><b>High-Throughput Backend:</b> Distributed FastAPI backend with async task scheduling, session state, and telemetry.</li>
-        <li><b>Reliable Data Architecture:</b> PostgreSQL persistence with strict audit logging, migrations, and schema validation.</li>
+        <li><b>Multi-Sensor Fusion:</b> Deterministic state estimation fusing IMU, GNSS, wheel odometry, and stereo depth.</li>
+        <li><b>Hazard & Terrain Mapping:</b> Real-time traversability evaluation, dynamic obstacle avoidance, and local path planning.</li>
+        <li><b>Harsh Telemetry Comms:</b> High-integrity CAN bus and resilient UDP/Ethernet communication pipelines for mission-critical telemetry.</li>
       </ul>
       <p align="center">
-        <code>FastAPI</code> · <code>LLM Pipelines</code> · <code>PostgreSQL</code> · <code>Next.js</code> · <code>Docker</code> · <code>Telemetry</code>
+        <code>C++</code> · <code>ROS 2</code> · <code>Sensor Fusion</code> · <code>Path Planning</code> · <code>CAN Bus</code> · <code>Planetary Robotics</code>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🔬 AI/ML Research & Geometric Perception</h3>
-      <p align="center"><b>Robust Computer Vision Under Domain Gaps</b></p>
-      <p>Bridging deep neural representations with classical geometric state estimation:</p>
+      <h3 align="center">🧠 ADAPT-AI <small><i>(Proprietary)</i></small></h3>
+      <p align="center"><b>Multi-Agent LLM Platform for Educational Assessment</b></p>
+      <p>High-impact human-centric AI application developed for the CAIRE Research Lab at Washington State University:</p>
       <ul>
-        <li><b>Monocular 6-DoF Pose:</b> Heatmap regression for 3D landmarks paired with EPNP RANSAC and Levenberg-Marquardt.</li>
-        <li><b>Domain Adaptation:</b> Training networks to cross the space radiometry gap (harsh solar glare, specular MLI, Earth albedo).</li>
-        <li><b>Uncertainty & Gating:</b> Analytic covariance propagation, Mahalanobis NIS gating, and spatial entropy confidence screening.</li>
+        <li><b>Multi-Stage Cognitive Pipelines:</b> Deterministic P1–P6 sequential and conditional prompt orchestration architectures.</li>
+        <li><b>Resilient Async Backend:</b> Distributed FastAPI service architecture with real-time session streaming and robust telemetry.</li>
+        <li><b>Mission-Critical Persistence:</b> Enterprise PostgreSQL schema with cryptographic audit trails and schema migrations.</li>
       </ul>
       <p align="center">
-        <code>PyTorch</code> · <code>Computer Vision</code> · <code>PnP / RANSAC</code> · <code>ONNX</code> · <code>Optimization</code>
+        <code>FastAPI</code> · <code>Agentic Workflows</code> · <code>PostgreSQL</code> · <code>Next.js</code> · <code>Docker</code> · <code>AI for Education</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🔬 Geometric Perception & Edge Intelligence</h3>
+      <p align="center"><b>Vision Systems Grounded in Physical Reality</b></p>
+      <p>Bridging deep neural perception with mathematically rigorous geometric state estimation for edge hardware:</p>
+      <ul>
+        <li><b>6-DoF Landmark Tracking:</b> Heatmap regression for 3D landmarks paired with EPnP RANSAC and Levenberg-Marquardt refinement.</li>
+        <li><b>Extreme Domain Adaptation:</b> Training vision models to conquer extreme radiometry gaps (space specular glare, Earth albedo, shadows).</li>
+        <li><b>Algorithmic Integrity:</b> Analytic covariance propagation, Mahalanobis outlier gating, and spatial entropy confidence screening.</li>
+      </ul>
+      <p align="center">
+        <code>PyTorch</code> · <code>Computer Vision</code> · <code>EPnP / RANSAC</code> · <code>ONNX Runtime</code> · <code>Edge AI</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ High-Throughput Distributed Systems</h3>
+      <p align="center"><b>Ultra-Low Latency Telemetry & Inter-Process Comms</b></p>
+      <p>Mission-critical networking infrastructure powering real-time physical systems and distributed inference:</p>
+      <ul>
+        <li><b>Real-Time IPC:</b> Zero-copy message passing with FastDDS and high-speed streaming protocols optimized for sub-millisecond control.</li>
+        <li><b>Distributed Cluster Bridge:</b> Multi-node compute orchestration with bounded-queue replay buffers and automated QoS throttling.</li>
+        <li><b>Hardware Abstraction:</b> Clean boundaries between mathematical algorithms and target execution hardware.</li>
+      </ul>
+      <p align="center">
+        <code>FastDDS</code> · <code>WebSockets</code> · <code>gRPC</code> · <code>FastAPI</code> · <code>Distributed Systems</code> · <code>Linux</code>
       </p>
     </td>
   </tr>
@@ -110,22 +131,22 @@
 
 ---
 
-### 🛠️ Tech Stack & Systems
+### 🛠️ Core Craft & Engineering Stack
 
 <div align="center">
 
-| Domain | Technologies & Frameworks |
+| Domain | Technologies & Systems |
 | :--- | :--- |
-| **Languages** | ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) |
-| **Networking & Infra** | ![FastDDS](https://img.shields.io/badge/FastDDS-008080?style=for-the-badge) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) |
-| **AI/ML & Compute** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![VLA / LLMs](https://img.shields.io/badge/VLAs_%2F_LLMs-FF8A46?style=for-the-badge) |
-| **Robotics & Aerospace** | ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white) ![Isaac Sim](https://img.shields.io/badge/NVIDIA_Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![Foxglove](https://img.shields.io/badge/Foxglove-4B32C3?style=for-the-badge) ![GNC / EKF](https://img.shields.io/badge/GNC_%2F_EKF-56C5C5?style=for-the-badge) |
+| **Languages** | ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) |
+| **Robotics & Space Systems** | ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white) ![Isaac Sim](https://img.shields.io/badge/NVIDIA_Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![Orbital GNC](https://img.shields.io/badge/Orbital_GNC_%2F_EKF-56C5C5?style=for-the-badge) ![Foxglove](https://img.shields.io/badge/Foxglove-4B32C3?style=for-the-badge) ![CAN Bus](https://img.shields.io/badge/CAN_Bus-D9381E?style=for-the-badge) |
+| **AI, Perception & Compute** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![VLAs & LLMs](https://img.shields.io/badge/VLAs_%26_Foundation_Models-FF8A46?style=for-the-badge) |
+| **Distributed Product Infra** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) |
 
 </div>
 
 ---
 
-### 📈 Activity & Metrics
+### 📈 Activity & Momentum
 
 <div align="center">
 
@@ -141,5 +162,11 @@
 ---
 
 <div align="center">
-  <sub>Designed with precision. Committed to verifiable results.</sub>
+
+```
+"The future belongs to those who build it with purpose, precision, and boundless optimism."
+```
+
+<sub>Crafted with conviction. Shipping products that push humanity forward.</sub>
+
 </div>
