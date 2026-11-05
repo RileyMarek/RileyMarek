@@ -6,10 +6,10 @@
 **Building products that improve lives, ground technology in physical reality, and engineer a hopeful future.**
 
 <p align="center">
-  <a href="https://github.com/RileyMarek"><img src="https://img.shields.io/badge/GitHub-RileyMarek-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:riley.marek@wsu.edu"><img src="https://img.shields.io/badge/Email-riley.marek%40wsu.edu-0A66C2?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Focus-Human--Centric%20Products%20%26%20Frontiers-FF5A5F?style=flat-square" alt="Focus" />
-  <img src="https://img.shields.io/badge/Philosophy-Optimism%20through%20Action-00C9A7?style=flat-square" alt="Philosophy" />
+  <a href="https://github.com/RileyMarek"><img src="assets/badge-github.svg" alt="GitHub" /></a>
+  <a href="mailto:riley.marek@wsu.edu"><img src="assets/badge-email.svg" alt="Email" /></a>
+  <img src="assets/badge-focus.svg" alt="Focus" />
+  <img src="assets/badge-philosophy.svg" alt="Philosophy" />
 </p>
 
 ---
@@ -32,17 +32,27 @@
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/RileyMarek/ApsisVision">🛰️ Apsis Vision</a></h3>
       <p align="center"><b>Autonomous Relative Spacecraft Navigation in Rust</b></p>
-      <p><b>What it solves:</b> Enables autonomous spacecraft rendezvous and docking in GPS-denied orbit. Delivers an allocation-free, deterministic <code>no_std</code> Rust EKF core with high-integrity optical pose estimation that remains stable under harsh solar glare and optical dropouts.</p>
+      <div align="center">
+        <a href="https://github.com/RileyMarek/ApsisVision">
+          <img src="assets/apsis-console.png" width="100%" alt="Apsis Vision Console" style="border-radius: 6px; border: 1px solid #30363d;" />
+        </a>
+      </div>
+      <p>Satellite servicing, orbital refueling, and debris removal currently stall because visual docking in space is plagued by brutal solar glare, specular reflections, and zero GPS reference. Apsis Vision provides an allocation-free, deterministic <code>no_std</code> Rust relative optical navigation core that tracks uncooperative and cooperative tumbling targets with verified 6-DoF state estimation, enabling spacecraft to approach and dock safely without human intervention.</p>
       <p align="center">
-        <code>Rust</code> · <code>no_std</code> · <code>Orbital GNC</code> · <code>EKF</code> · <code>Computer Vision</code>
+        <code>Rust</code> · <code>no_std</code> · <code>Orbital GNC</code> · <code>EKF</code> · <code>Computer Vision</code> · <code>Space Autonomy</code>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/RileyMarek/Moonbase-Orchestrator-Public-Showcase-">🤖 Moonbase</a></h3>
       <p align="center"><b>Embodied Robotics Command Center & VLA Execution</b></p>
-      <p><b>What it solves:</b> Bridges high-level foundation models with low-level physical control. Pairs real-time WebGL/Three.js digital twins, ROS 2 FastDDS telemetry, and multimodal Vision-Language-Action (VLA) spatial reasoning for intuitive robot fleet teleoperation.</p>
+      <div align="center">
+        <a href="https://github.com/RileyMarek/Moonbase-Orchestrator-Public-Showcase-">
+          <img src="assets/moonbase-preview.png" width="100%" alt="Moonbase Robot Simulation" style="border-radius: 6px; border: 1px solid #30363d;" />
+        </a>
+      </div>
+      <p>Operating heterogeneous robot fleets (humanoids, quadrupeds, wheeled AMRs) is bottlenecked by fragmented tooling, high-latency teleoperation, and a disconnect between high-level AI reasoning and physical joint control. Moonbase unifies fleet orchestration into a high-performance spatial command center—pairing browser-based WebGL/Three.js digital twins and ROS 2 FastDDS telemetry with multimodal Vision-Language-Action (VLA) spatial intelligence for real-time mission execution.</p>
       <p align="center">
-        <code>Python</code> · <code>ROS 2</code> · <code>Isaac Sim</code> · <code>FastDDS</code> · <code>Three.js</code> · <code>VLAs</code>
+        <code>Python</code> · <code>ROS 2</code> · <code>Isaac Sim</code> · <code>FastDDS</code> · <code>Three.js</code> · <code>VLAs</code> · <code>Physical AI</code>
       </p>
     </td>
   </tr>
@@ -50,17 +60,22 @@
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/RileyMarek/NasaRoverVLModel">🪐 NASA Rover VL Model</a></h3>
       <p align="center"><b>Planetary Surface Autonomy & Vision-Language Navigation</b></p>
-      <p><b>What it solves:</b> Autonomous terrain understanding and hazard navigation for planetary rovers. Fuses vision-language spatial reasoning with multi-sensor odometry and terrain traversability mapping for real-time local path planning in GPS-denied environments.</p>
+      <div align="center">
+        <a href="https://github.com/RileyMarek/NasaRoverVLModel">
+          <img src="assets/rover-preview.png" width="100%" alt="NASA Rover Vision-Language Navigation" style="border-radius: 6px; border: 1px solid #30363d;" />
+        </a>
+      </div>
+      <p>Planetary rovers on the Moon and Mars face minutes-long communication latency with Earth, making manual hazard avoidance slow and high-risk. This autonomous system integrates vision-language multimodal reasoning (CLIP + U-Net with FiLM adaptation) directly into surface navigation, enabling rovers to autonomously parse natural terrain hazards, assess traversability, and plan safe traversal paths across unstructured planetary environments.</p>
       <p align="center">
-        <code>C++</code> · <code>Python</code> · <code>ROS 2</code> · <code>Sensor Fusion</code> · <code>Vision-Language</code> · <code>Path Planning</code>
+        <code>Python</code> · <code>PyTorch</code> · <code>U-Net</code> · <code>Vision-Language</code> · <code>CLIP</code> · <code>Autonomous Navigation</code>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🧠 ADAPT-AI <small><i>(Proprietary)</i></small></h3>
       <p align="center"><b>Multi-Agent LLM Platform for Educational Assessment</b></p>
-      <p><b>What it solves:</b> Accelerates educational assessment design for the CAIRE Research Lab by replacing manual test authoring with deterministic multi-stage LLM evaluation pipelines, real-time streaming, and cryptographically auditable persistence.</p>
+      <p>Designing valid, multidimensional cognitive and educational assessments is traditionally an exhausting, months-long manual process for academic research labs. ADAPT-AI replaces this friction with an automated multi-agent LLM platform developed for the CAIRE Research Lab, orchestrating deterministic multi-stage evaluation pipelines with real-time streaming and cryptographically auditable PostgreSQL persistence to generate verified assessment items in minutes.</p>
       <p align="center">
-        <code>FastAPI</code> · <code>Agentic Workflows</code> · <code>PostgreSQL</code> · <code>Next.js</code> · <code>Docker</code>
+        <code>FastAPI</code> · <code>Agentic Workflows</code> · <code>PostgreSQL</code> · <code>Next.js</code> · <code>Docker</code> · <code>Human-Centric AI</code>
       </p>
     </td>
   </tr>
